@@ -22,11 +22,6 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }，
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
@@ -118,9 +113,12 @@ const API_SITES = {
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
-};
+    },
+    testSource: {
+        api: 'https://www.example.com/api.php/provide/vod',
+        name: '空内容测试源',
+        adult: true
+    },
 
 // 定义合并方法
 function extendAPISites(newSites) {
